@@ -8,7 +8,7 @@ url http://localhost:4500
 
 ## `Frontend`
 ```
-### npm start
+npm start
 port 3000
 host localhost
 url http://localhost:3000
