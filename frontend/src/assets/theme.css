@@ -1,0 +1,114 @@
+
+* {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+body{
+    position: relative;
+}
+
+:root{
+
+    --cs-color-blue: rgb(0, 134, 212);
+    --cs-color-purple: rgb(99, 91, 255);
+    --cs-color-red: rgb(223, 27, 63);
+    --cs-color-green: rgb(0, 166, 81);
+}
+
+.h-screen{
+    height: 100vh;
+}
+.w-screen{
+    width: 100vw;
+}
+
+
+.fs-14{
+    font-size: 14px !important;
+}
+.fs-11{
+    font-size: 11px !important;
+}
+
+/**************************
+ * ADMIN SITE MAIN HEADER *
+ **************************/
+
+#AdminMainHeader {
+    border-bottom: 0.5px solid #ededed;
+    padding: 10px 0;
+    background-color: #fff !important;
+}
+#AdminMainHeader .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#AdminMainHeader .header-wrapper .campany-name {
+    font-size: 2rem;
+}
+#AdminMainHeader .header-wrapper .header-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/***************************** END *****************************/
+
+
+/**************************
+ * ADMIN SITE MAIN NAVBAR *
+ **************************/
+
+ #AdminMainNavBar {
+    width: 100vw;
+    max-width: 100vw;
+    overflow: hidden;
+    border-bottom: 0.5px solid rgb(237,237,237);
+    padding: 10px 0;
+    background-color: #fff !important;
+}
+#AdminMainNavBar .nav-wrapper .nav-items ul {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+#AdminMainNavBar .nav-wrapper .nav-items ul li a {
+    display: block;
+    text-decoration: none !important;
+    font-size: 14px;
+    color: #3f3f3f;
+    font-weight: 500;
+}
+
+#AdminMainNavBar .nav-wrapper .nav-items ul li:not(:first-child) a{
+    padding: 16px;
+}
+
+#AdminMainNavBar .nav-wrapper .nav-items ul li:first-child a{
+    padding: 16px;
+    padding-left: 0px !important;
+}
+
+
+#AdminMainNavBar .nav-wrapper .nav-items ul li a.active,
+#AdminMainNavBar .nav-wrapper .nav-items ul li a:hover {
+    color: var(--cs-color-purple);
+}
+
+
+/***************************** END *****************************/
+
+body{
+
+    background-color: #5283dd0d;
+
+}
